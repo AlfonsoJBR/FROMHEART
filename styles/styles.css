@@ -1,0 +1,28 @@
+
+/* fondo para el login */
+
+.fondo {
+    heigh:665px;
+    background-image: url("../images/fondo.png");
+   
+}
+
+.fondoazul {
+    heigh:665px;
+    background-image: url("../images/fondodifuminado.jpg");
+   
+}
+
+.fondoabs {
+    heigh:665px;
+    background-image: url("../images/fondoabs.jpg");
+   
+}
+
+
+.boton-nuevo {
+      background-color: rgb(54, 72, 124);
+      color: white;
+      
+      border-radius:10px;
+  }
