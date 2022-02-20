@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta FROMHEART </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+   
+</head>
+<body class="bg-secondary fondo">
+    <h4 class="text-warning">Saludos, operador HEART
+    <button type="submit" class="boton-nuevo" onclick="location.href='index.html'">
+      Cerrar Sesion
+    </button>
+  </h4>
+    <div id="wrapper" class="container-fluid bg-light p-5 fondo">
+      
+      <div class="table-responsive">
+<!-- Encabezamiento -->        
+        <h1 class="text-center py-3 text-white">Consulta de datos FROM HEART</h1>
+
+<!-- Tabla de datos a mostrar -->        
+        <table class="table table-striped table-hover align-middle fondoabs">
+
+<!-- Encabezamiento de la tabla-->          
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellidos</th>
+                <th scope="col">Código Postal</th>
+                <th scope="col">Provincia</th>
+                <th scope="col">Comentarios</th>
+                <th scope="col">Humano</th>
+                <th scope="col">Editar</th>
+                <th scope="col">Borrar</th>
+              </tr>
+            </thead>
+<!-- FILAS DE LA TABLA-->            
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>29000</td>
+                <td>Málaga</td>
+                <td>Lorem ipsum, dolor sit amet </td>
+                <td>Si</td>
+
+                
+                <td><a href="./edicion.html" target="_blank"><i class="bi bi-pencil-fill text-warning fs-3"></i></a></td>
+                <td><i class="bi bi-trash text-danger fs-3" onclick="confirm('Estas seguro de que quieres borrar este registro?')"></i></td>
+              
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Mario</td>
+                <td>Ottosan</td>
+                <td>29200</td>
+                <td>Campillos</td>
+                <td></td>
+                <td>Si</td>
+                <td><a href="./edicion.html" target="_blank"><i class="bi bi-pencil-fill text-warning fs-3"></i></a</td>
+                <td><i class="bi bi-trash text-danger fs-3" onclick="confirm('Estas seguro de que quieres borrar este registro?')"></i></td>
+              
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Marik</td>
+                <td>Ottogonal</td>
+                <td>29010</td>
+                <td>Málaga</td>
+                <td>Lorem ipsum,is!</td>
+                <td>No</td>
+                <td><a href="./edicion.html" target="_blank"><i class="bi bi-pencil-fill text-warning fs-3"></i></a</td>
+                <td><i class="bi bi-trash text-danger fs-3" onclick="confirm('Estas seguro de que quieres borrar este registro?')"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Jose Luis</td>
+                <td>Santos</td>
+                <td>29201</td>
+                <td>Antequera</td>
+                <td></td>
+                <td>Si</td>
+                <td><a href="./edicion.html" target="_blank"><i class="bi bi-pencil-fill text-warning fs-3"></i></a</td>
+                <td><i class="bi bi-trash text-danger fs-3" onclick="confirm('Estas seguro de que quieres borrar este registro?')"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Pilar</td>
+                <td>Garcia</td>
+                <td>29110</td>
+                <td>Málaga</td>
+                <td>De otra Galaxia, Andromeda más concretamente</td>
+                <td>No</td>
+                <td><a href="./edicion.html" target="_blank"><i class="bi bi-pencil-fill text-warning fs-3"></i></a</td>
+                <td><i class="bi bi-trash text-danger fs-3" onclick="confirm('Estas seguro de que quieres borrar este registro?')"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Hiperion Do Santos </td>
+                <td>Manila</td>
+                <td>29020</td>
+                <td>Humilladero</td>
+                <td>Humano por los pelos</td>
+                <td>Si</td>
+                <td><a href="./edicion.html" target="_blank"><i class="bi bi-pencil-fill text-warning fs-3"></i></a</td>
+                <td><i class="bi bi-trash text-danger fs-3" onclick="confirm('Estas seguro de que quieres borrar este registro?')"></i></td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div> 
+        <!-- Fin de tabla responsive-->
+<!-- Boton para mandarme a la hoja de insercion-->
+        <button type="submit" class="boton-nuevo" data-bs-toggle="modal" data-bs-target="#formularioinsertar" onclick="location.href='insercion.html'">
+          Insertar nuevo HEART
+        </button>
+       
+            
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
+</body>
+</html>
+
